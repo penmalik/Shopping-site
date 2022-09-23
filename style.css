@@ -1,0 +1,825 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+/* Start of Nav bar */
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    position: fixed;
+    z-index: 10;
+}
+
+nav h1{
+    margin: auto 30px;
+    font-size: 2rem;
+}
+
+nav input{
+    height: 50px;
+    width: 400px;
+    margin: auto 30px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    text-indent: 10%;
+}
+
+#search{
+    position: absolute;
+    top: 30px;
+    left: 230px;
+    color: black;
+}
+
+nav a{
+    color: whitesmoke;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: auto 20px;
+}
+
+nav ul li{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#cart{
+    position: absolute;
+    top: 25px;
+    right: 200px;
+    font-size: 2rem;
+}
+nav p{
+    position: absolute;
+    top: 30px;
+    right: 180px;
+}
+/* End of Nav bar */
+
+/* Start of Home Section */
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.one{
+    width: 40%;
+}
+.two{
+    width: 60%;
+}
+
+.one > h1{
+    font-size: 2.2rem;
+    margin-left: 5%;
+    margin-top: 50%;
+    margin-bottom: 3%;
+    font-family: cursive;
+}
+
+.one > p{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    font-family: cursive;
+}
+
+.one > button{
+    height: 40px;
+    width: 150px;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.two > img{
+    width: 120%;
+    height: 100%;
+}
+/* End of Home section */
+
+/* Start of clothes Section */
+.clothes{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.clothes > h1{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-bottom: 7%;
+}
+
+.box1{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.box1 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/01_1800x1800_69d4dde7-b3e1-4f80-8e76-e3a5fb3948fc_800x.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.clothes > .box1 > ul{
+    list-style: none;
+}
+
+.clothes > .box1 > ul > li{
+    padding-top: 20%;
+    padding-left: 32%;
+    font-size: 1.1rem;
+}
+
+.clothes > .box1 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.box2{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex; 
+}
+
+.box2 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/louis-vuitton-sleeveless-knit-top-ready-to-wear--FIKW62VUA660_PM1_Worn\ view.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.clothes > .box2 > ul{
+    list-style: none;
+}
+
+.clothes > .box2 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.clothes > .box2 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.box3{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 6%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+
+.box3 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/louis-vuitton-lv-night-monogram-mink-hoodie-ready-to-wear--FMLJ14FJ1900_PM1_Worn\ view.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.clothes > .box3 > ul{
+    list-style: none;
+}
+
+.clothes > .box3 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.clothes > .box3 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.box4{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    margin-top: 3%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+
+.box4 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/louis-vuitton-landscape-short-sleeved-denim-shirt--HNS18WNW3MU1_PM2_Front\ view.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.clothes > .box4 > ul{
+    list-style: none;
+}
+
+.clothes > .box4 > ul > li{
+    padding-top: 20%;
+    padding-left: 32%;
+    font-size: 1.1rem;
+}
+
+.clothes > .box4 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.box5{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    margin-top: 3%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+
+.box5 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/louis-vuitton-short-sleeved-shirt--HNS73WPO0MU1_PM2_Front\ view.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+}
+
+.clothes > .box5 > ul{
+    list-style: none;
+}
+
+.clothes > .box5 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.clothes > .box5 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.box6{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 6%;
+    margin-top: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+
+.box6 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/louis-vuitton--HIY43WRLE900_PM2_Front\ view.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.clothes > .box6 > ul{
+    list-style: none;
+}
+
+.clothes > .box6 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.clothes > .box6 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+/* End of Clothes Section */
+
+/* Start of Wristwatch Section */
+.watches{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.watches > h1{
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.boxx1{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.boxx1 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/1uv5mqgse2gy.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.watches > .boxx1 > ul{
+    list-style: none;
+}
+
+.watches > .boxx1 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.watches > .boxx1 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.boxx2{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.boxx2 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/3b2a136edeba63af1b86b8b8694d6b8a.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.watches > .boxx2 > ul{
+    list-style: none;
+}
+
+.watches > .boxx2 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.watches > .boxx2 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.boxx3{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 6%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.boxx3 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/716SM80b18L._AC_UY500_.jpg) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.watches > .boxx3 > ul{
+    list-style: none;
+}
+
+.watches > .boxx3 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.watches > .boxx3 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.boxx4{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.boxx4 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/b468843d1ceed53b630f726e61e67ac5a7e95e36.webp) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.watches > .boxx4 > ul{
+    list-style: none;
+}
+
+.watches > .boxx4 > ul > li{
+    padding-top: 20%;
+    padding-left: 32%;
+    font-size: 1.1rem;
+}
+
+.watches > .boxx4 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.boxx5{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.boxx5 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/il-794xn-3714257038-pa73-1000x1000.webp) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.watches > .boxx5 > ul{
+    list-style: none;
+}
+
+.watches > .boxx5 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.watches > .boxx5 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+
+.boxx6{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 250px;
+    margin-left: 6%;
+    margin-top: 7%;
+    box-shadow: 3px 3px silver;
+    display: inline-flex;
+}
+.boxx6 > div{
+    /* border: 1px solid black; */
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 50%;
+    background: url(../Shopping/photo-1614703418052-d5b893d495bc.jfif) no-repeat center;
+    background-size: cover;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.watches > .boxx6 > ul{
+    list-style: none;
+}
+
+.watches > .boxx6 > ul > li{
+    padding-top: 20%;
+    padding-left: 30%;
+    font-size: 1.1rem;
+}
+
+.watches > .boxx6 > button{
+    display: inline-flex;
+    height: 40px;
+    width: 130px;
+    position: relative;
+    top: 75%;
+    right: 20%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding-left: 6%;
+    padding-top: 2%;
+}
+/* End of Wristwatch Section */
+
+/* Start of About-us Section */
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.about > .h1{
+    display: inline-block;
+    margin-left: 40%;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+
+.about > .h1 > h1{
+    margin-top: 4%;
+}
+
+.about > .p{
+    display: flex;
+    width: 45%;
+    position: relative;
+    margin-right: 45%;
+    margin-top: 8%;
+}
+
+.about > .p > p{
+    margin-left: 6%;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.about > .p > p > span{
+    font-size: 2.5rem;
+}
+
+.about > .p > button{
+    position: relative;
+    height: 40px;
+    width: 300px;
+    left: -80%;
+    padding: 2px;
+    margin-top: 30%;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.about > .img {
+    display: flex;
+    width: 55%;
+    overflow-x: visible;
+}
+
+.about > .img > img{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    position: relative;
+    left: 85%;
+    margin: 0 2%;
+    margin-top: -30%;
+}
+
+.about > .img > .i1{
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.about > .img > .i2{
+    height: 350px;
+    margin-top: -35%;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.about > .img > .i3{
+    height: 350px;
+    width: 200px;
+    border-radius: 10px;
+}
+/* End of About-us Secttion */
+
+/* Start Of Get Our Mobile App Section */
+.get{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    overflow-y: hidden;
+}
+
+.get > .h1{
+    display: inline-block;
+    margin-left: 35%;
+    margin-bottom: 3%;
+    width: 100%;
+    height: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.get > .p{
+    display: flex;
+    width: 56%;
+    position: relative;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+.get > .p > p{
+    margin-left: 6%;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+.get > .p > button{
+    position: relative;
+    height: 40px;
+    width: 1000px;
+    left: -67%;
+    margin-top: 32%;
+    margin-left: 4%;
+    padding: auto;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+}
+
+.get > .get-img {
+    position: relative;
+    top: -50%;
+    right: -50%;
+}
+
+.get > .get-img > img{
+    width: 40%;
+    height: 500px;
+    border-radius: 90%;
+}
+/* End Of Get Our Mobile App Section */
